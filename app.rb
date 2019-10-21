@@ -38,13 +38,13 @@ class App < Sinatra::Base
   num2 = params[:number2].to_i
   binding.pry
     if op == "add"
-      num1. + num2 
+      (num1 + num2) 
     elsif op == "subtract"
-      num1 - num2
+      (num1 - num2)
     elsif op == "multiply"
-      num1 * num2 
+      (num1 * num2) 
     elsif op == "divide"
-      num1 / num2
+      (num1 / num2)
      
     end 
     
