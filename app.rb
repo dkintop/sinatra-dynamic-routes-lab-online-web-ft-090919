@@ -36,7 +36,15 @@ class App < Sinatra::Base
   op = params[:operation]
   num1 = params[:number1]
   num2 = params[:number2]
-  binding.pry 
+   
+  if op == "add"
+    num1 + num2 
+  elsif op == "subtract"
+    num1 - num2
+  elsif op == "multiply"
+    num1*num2 
+  elsif op == "divide"
+  num1 / 
   end 
   
   
