@@ -20,6 +20,6 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     array = []
     @times.times {array << @phrase}
-    binding.pry
+    array.join
   end
 end
