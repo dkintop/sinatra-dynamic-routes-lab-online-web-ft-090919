@@ -7,7 +7,8 @@ class App < Sinatra::Base
   get '/reversename/:name' do 
     
     @name = params[:name]
-  binding.pry 
+    @name.reverse 
+    binding.pry
   end 
   
 end
