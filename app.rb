@@ -42,7 +42,7 @@ class App < Sinatra::Base
     elsif op == "subtract"
       num1 - num2
     elsif op == "multiply"
-      num1*num2 
+      num1 * num2 
     elsif op == "divide"
       num1 / num2
      
